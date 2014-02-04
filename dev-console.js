@@ -11,7 +11,6 @@ if (system.args.length !== 3) {
 			document.querySelector('input[id=Email]').value = name;
 			document.querySelector('input[id=Passwd]').value = pwd;
 			document.querySelector('input[id=signIn]').click();
-			// document.querySelector('form').submit();
 		}, username, password);
 		window.setTimeout(function() {
 			var links = page.evaluate(function() {
